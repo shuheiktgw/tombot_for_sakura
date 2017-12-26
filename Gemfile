@@ -34,6 +34,7 @@ gem 'line-bot-api'
 
 group :production do
   gem 'rails_12factor'
+  gem 'rack'
 end
 
 group :test do
